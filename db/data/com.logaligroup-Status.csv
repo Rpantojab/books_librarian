@@ -1,0 +1,4 @@
+code,criticality,name,descr
+Available,3,Available,Book Available
+LowAvailability,2,Low Availability,Book Low Availability
+NotAvailable,1,Not Available, Book not Available

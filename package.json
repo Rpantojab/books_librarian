@@ -1,0 +1,30 @@
+{
+  "name": "books_librarian",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^9",
+    "express": "^4"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2",
+    "@cap-js/cds-types": "^0.13.0"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-books": "cds watch --open books_cds_annotatios/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-books_xml_annotatios": "cds watch --open books_xml_annotatios/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-books_fpm_annotatios": "cds watch --open books_fpm_annotatios/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "sapux": [
+    "app/books_cds_annotatios",
+    "app/books_xml_annotatios",
+    "app/books_fpm_annotatios"
+  ]
+}
